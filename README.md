@@ -10,7 +10,12 @@ poetry install
 
 同様に、`2022S_Th4_report1/`で以下を実行すると課題のグラフを得る。
 
-```sh
+```sh {.copy}
 poetry run python -m Th4_report --fig [図の番号]
+```
+
+仮想環境の削除は以下を実行。
+```sh
+poetry env remove [仮想環境名]
 ```
 
